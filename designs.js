@@ -1,4 +1,9 @@
-// When size is submitted by the user, call makeGrid()
+/**
+ * @desc create a canvas of squares
+ * @param $height - the number of squares that makes up the height of the canvas grid
+ * @param $width - the number of squares that makes up the width of the canvas grid
+ */
+
 $('#sizePicker').submit(function makeGrid(grid) {
     $('table tr').remove();  // remove every previous table row
     var height = $('#inputHeight').val(); //height of table or canvas
